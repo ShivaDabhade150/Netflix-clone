@@ -25,8 +25,7 @@ MySQL
 External API
 TMDB (The Movie Database) API
 📁 Project Folder Structure
-NETFLIX_CLONE │ ├── BackEnd │ ├── node_modules │ ├── db.js │ ├── index.js │ ├── package.json │ └── package-lock.json │ ├── FrontEnd │ ├── node_modules │ ├── public │ ├── src │ │ ├── assets │ │ ├── component │ │ │ ├── Footer │ │ │ ├── NavBar │ │ │ └── TitleCard │ │ ├── Page │ │ │ ├── Home │ │ │ ├── Login │ │ │ └── Player │ │ ├── App.jsx │ │ ├── index.css │ │ └── main.jsx │ ├── index.html │ ├── package.json │ ├── package-lock.json │ └── vite.config.js │ ├── .gitignore ├── eslint.config.js └── README.md
-
+[!Folder](ScreenShort/Floder.png)
 🔐 Authentication Flow
 User enters email and password on Login page
 Frontend sends request to Express backend
