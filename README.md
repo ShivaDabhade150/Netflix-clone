@@ -1,0 +1,166 @@
+# 🎬 Netflix Clone
+
+A full-stack Netflix Clone web application built using **React (Vite)** for frontend,  
+**Express.js** for backend, **MySQL** for database, and **TMDB API** for movie data.
+
+---
+
+## 🚀 Features
+
+- User Sign In authentication
+- Netflix-style Home page
+- Dynamic movie rows using TMDB API
+- Movie player page
+- Responsive UI
+- REST API based backend
+- MySQL database integration
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js (Vite)
+- JavaScript
+- HTML5
+- CSS3
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MySQL
+
+### External API
+- TMDB (The Movie Database) API
+
+---
+
+## 📁 Project Folder Structure
+
+NETFLIX_CLONE
+│
+├── BackEnd
+│ ├── node_modules
+│ ├── db.js
+│ ├── index.js
+│ ├── package.json
+│ └── package-lock.json
+│
+├── FrontEnd
+│ ├── node_modules
+│ ├── public
+│ ├── src
+│ │ ├── assets
+│ │ ├── component
+│ │ │ ├── Footer
+│ │ │ ├── NavBar
+│ │ │ └── TitleCard
+│ │ ├── Page
+│ │ │ ├── Home
+│ │ │ ├── Login
+│ │ │ └── Player
+│ │ ├── App.jsx
+│ │ ├── index.css
+│ │ └── main.jsx
+│ ├── index.html
+│ ├── package.json
+│ ├── package-lock.json
+│ └── vite.config.js
+│
+├── .gitignore
+├── eslint.config.js
+└── README.md
+
+
+---
+
+## 🔐 Authentication Flow
+
+1. User enters email and password on Login page
+2. Frontend sends request to Express backend
+3. Backend checks credentials from MySQL database
+4. Success or error response is returned
+5. On success, user navigates to Home page
+
+---
+
+## 🎬 TMDB API Usage
+
+- Fetch trending and popular movies
+- Display movie posters dynamically
+- Show movies category-wise
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/netflix-clone.git
+2️⃣ Backend Setup
+cd BackEnd
+npm install
+node index.js
+Make sure MySQL is running and database credentials are correct in db.js
+
+3️⃣ Frontend Setup
+cd FrontEnd
+npm install
+npm run dev
+🔮 Future Enhancements
+JWT based authentication
+
+Sign Up functionality
+
+Search movies
+
+Watchlist feature
+
+Trailer popup
+
+Deployment on cloud (Render / Vercel)
+
+👨‍💻 Author
+Shivanand Kailas Dabhade
+Computer Engineering Student
+Full-Stack Developer
+
+⭐ Support
+If you like this project, don’t forget to give it a ⭐ on GitHub!
+
+
+---
+
+## ✅ Important Final Checks
+
+✔ `README.md` is in **root folder**  
+✔ Folder names match GitHub exactly (`BackEnd`, `FrontEnd`)  
+✔ No screenshots yet → add later (optional but powerful)
+
+---
+
+If you want next:
+- 📸 **Add screenshots section**
+- 🧠 **Make README more placement-oriented**
+- 🎯 **SPPU mini-project format**
+- 🚀 **Deployment steps**
+
+Just tell me 👍
+::contentReference[oaicite:0]{index=0}
+
+
+
+<img width="1817" height="789" alt="image" src="https://github.com/user-attachments/assets/3d4b1159-d9c2-48c7-ba78-ed16ca113a9a" />
+
+<img width="1865" height="880" alt="image" src="https://github.com/user-attachments/assets/2c098784-4766-48b6-a51a-d01b9e9aedd1" />
+
+
+<img width="1820" height="886" alt="image" src="https://github.com/user-attachments/assets/22d0ee9d-5da9-4109-9884-c4c3b56fd8bc" />
+
+<img width="1818" height="876" alt="image" src="https://github.com/user-attachments/assets/071ac6ba-2413-4201-95c1-699a19eb9210" />
+
+<img width="1845" height="876" alt="image" src="https://github.com/user-attachments/assets/ffd82606-1727-4c83-acbe-5b5bd895fe2b" />
+
+
