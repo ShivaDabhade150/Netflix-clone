@@ -1,3 +1,4 @@
+
 🎬 Netflix Clone
 A full-stack Netflix Clone web application built using React (Vite) for frontend,
 Express.js for backend, MySQL for database, and TMDB API for movie data.
@@ -94,3 +95,6 @@ Just tell me 👍
 
 ### 🔐 Login Page
 ![Login Page](screenshots/signUp.png)
+=======
+
+>>>>>>> af62400152479a2cb5dd445cf700852e137f4c3e
