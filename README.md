@@ -25,7 +25,9 @@ MySQL
 External API
 TMDB (The Movie Database) API
 📁 Project Folder Structure
-[!Folder](ScreenShort/Floder.png)
+![Folder](ScreenShort/Floder.png)
+
+
 🔐 Authentication Flow
 User enters email and password on Login page
 Frontend sends request to Express backend
