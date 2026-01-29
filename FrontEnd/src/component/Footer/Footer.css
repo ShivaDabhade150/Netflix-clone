@@ -1,0 +1,32 @@
+
+.Footer{
+    display:flex;
+    flex-direction:column;
+    padding:4% 6% 4% 6%;
+    gap:30px;
+    justify-items: center;
+    text-align: center;
+}
+ .footer-img {
+    display: flex;
+    justify-content:space-evenly;
+    gap:20px;
+    width:100%;
+}
+
+.footer-img img {
+  width: clamp(28px, 5vw, 40px);
+  height: clamp(28px, 5vw, 40px);
+  object-fit: contain;
+}
+.footer-content{
+
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    gap:20px;
+    list-style: none;
+} 
+
+.Footer p{
+    color:grey;
+}

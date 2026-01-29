@@ -1,0 +1,27 @@
+.Player{
+    position: relative; 
+    width:100vw;
+    height: 100vh;
+    padding:1rem;
+    
+}
+
+.Player iframe{
+    /* position: relative; */
+    width:90%;
+    height: 75%;
+    margin: 3.5rem;
+}
+
+.Player img{
+    width:5%;
+    position: absolute;
+    top:2;
+    left:2;
+}
+
+.Player-data{
+    display: flex;
+    justify-content:space-around;
+    font-size: larger;
+}

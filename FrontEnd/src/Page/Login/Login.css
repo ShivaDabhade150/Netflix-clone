@@ -1,0 +1,109 @@
+
+.Login-page{
+    display: flex;
+    width:100vw;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6)),url('/background_banner.jpg');
+    align-items: center;
+    justify-content: center;
+}
+
+.form-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    width:400px;
+    height:490px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 4px;
+    border:none;
+    outline:none;
+    box-shadow: 1px 1px 11px 1px black;
+}
+
+.form-data h1{
+    font-weight: 600;
+    /* margin:0.1rem; */
+}
+.form-data form{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-data form input{
+    
+    border:none;
+    outline:none;
+    border-radius:4px;
+    background-color: rgba(69, 71, 70,1);
+    height: clamp(9px,5vh,40px);
+    width:90%;
+    color:white;
+    font-size: larger;
+    padding: 10px;
+}
+
+.form-data form input::placeholder{
+    color:grey;
+    padding-left: 4%;
+    font-size:17px;
+}
+
+.form-data form button{
+  border:none;
+  outline:none;
+  border-radius:4px;
+  width:90%;
+  height: clamp(9px,5vh,40px);
+  background-color:rgb(242, 70, 12);
+  font-size: larger;
+}
+
+.form-help{
+    
+    display: flex;
+    width:400px;
+    justify-content:space-around;
+    align-items:center;
+    gap:20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form-help [type="checkbox"]{
+
+    width:20px;
+    height:20px;
+}
+
+.form-switch{
+    display: flex;
+    gap:0.5rem;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.form-help .form-help-checkbox{
+    display: flex;
+    width:50%;
+    height: 100%;
+    justify-content:flex-start;
+    gap:10px;
+}
+
+
+.form-switch span{
+    font-weight:800;
+    color:white;
+    cursor: pointer;
+}
+
+.form-switch p{
+    color:grey;
+}
