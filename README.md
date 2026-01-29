@@ -91,10 +91,13 @@ If you want next:
 Just tell me 👍
 ::contentReference[oaicite:0]{index=0}
 
-## ScreenShort
+## 📸 Screenshots
 
 ### 🔐 Login Page
-![Login Page](screenshots/signUp.png)
-=======
+![Login Page](ScreenShort/signUp.png)
 
->>>>>>> af62400152479a2cb5dd445cf700852e137f4c3e
+### 🏠 Home Page
+![Home Page](ScreenShort/home.png)
+
+### ▶ Player Page
+![Player Page](ScreenShort/player.png)
